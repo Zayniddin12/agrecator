@@ -1,0 +1,24 @@
+{
+  "name": "agrecator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "check": "prettier --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zayniddin12/agrecator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zayniddin12/agrecator/issues"
+  },
+  "homepage": "https://github.com/Zayniddin12/agrecator#readme",
+  "description": "",
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}
