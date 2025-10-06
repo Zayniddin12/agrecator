@@ -3,11 +3,109 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <!--Header-->
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <!--Header-->
+
+    <!--Swiper-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/swiper.css" />
+    <!--Swiper End-->
   </head>
   <body>
-    <iframe src="./sections/header.html"></iframe>
-    <iframe src="./sections/ManageCourse.html" frameborder="0" style="display: block;" class="container"></iframe>
+    <div class="container">
+      <header class="header">
+        <div class="header__logo">
+          <img src="./assets/images/header/Logo.png" alt="Logo" />
+        </div>
+
+        <nav class="header__nav">
+          <ul class="header__menu">
+            <li><a href="#">Курсы</a></li>
+            <li><a href="#">Школы</a></li>
+            <li><a href="#">Отзывы о школах</a></li>
+            <li><a href="#">Акции школ</a></li>
+            <li><a href="#">Блог</a></li>
+          </ul>
+        </nav>
+
+        <div class="header__actions">
+          <button class="action transfer">
+            <img src="./assets/images/header/Transform.png" alt="Transfer" />
+          </button>
+          <div class="action search">
+
+            <input type="text" placeholder="Искать курсы" />
+          </div>
+<!--          <div class="action profile">Profile</div>-->
+        </div>
+      </header>
+
+      <!--  iframe header end-->
+
+      <!--iframe Banner start-->
+
+      <!--iframe Banner end-->
+
+      <!--iframe Blog start-->
+
+      <!--iframe Blog end-->
+
+      <!--iframe ManageCourse start-->
+      <iframe
+        src="./sections/ManageCourse.html"
+        frameborder="0"
+        style="display: block"
+        class="container"
+      ></iframe>
+      <!--iframe ManageCourse end-->
+
+      <!--  iframe SchoolSlider start-->
+      <section class="school-slider">
+        <div class="school-header">
+          <h3>Школы</h3>
+        </div>
+
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./assets/images/swiper/swiper-logo-1.png" alt="Logo Нетология" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/swiper/swiper-logo-2.png" alt="Logo SkillFactory" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/swiper/swiper-logo-3.png" alt="Logo OTUS" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/swiper/swiper-logo-4.png" alt="Logo GeekBrains" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="./assets/images/swiper/swiper-logo-1.png" alt="Logo Нетология" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/swiper/swiper-logo-2.png" alt="Logo SkillFactory" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/swiper/swiper-logo-3.png" alt="Logo OTUS" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/swiper/swiper-logo-4.png" alt="Logo GeekBrains" />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <!--  iframe SchoolSlider end-->
+    </div>
+    <!--  Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./assets/js/swiper.js"></script>
   </body>
 </html>
